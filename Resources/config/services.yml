@@ -7,19 +7,19 @@ services:
     chewbacco_payment_qiwi_wallet.plugin.qiwi_wallet:
         class: Chewbacco\Payment\QiwiWalletBundle\Plugin\QiwiWalletPlugin
         arguments:
-            - %chewbacco_payment_qiwi_wallet.return_url%
-            - @chewbacco_payment_qiwi_wallet.client
+            - '%chewbacco_payment_qiwi_wallet.return_url%'
+            - '@chewbacco_payment_qiwi_wallet.client'
         tags:
             - { name: payment.plugin }
 
     chewbacco_payment_qiwi_wallet.form.qiwi_wallet_type:
-        class: %chewbacco_payment_qiwi_wallet.form.qiwi_wallet_type.class%
+        class: '%chewbacco_payment_qiwi_wallet.form.qiwi_wallet_type.class%'
         tags:
             - { name: payment.method_form_type }
             - { name: form.type, alias: qiwi_wallet }
 
     chewbacco_payment_qiwi_wallet.client:
-        class: %chewbacco_payment_qiwi_wallet.client.class%
+        class: '%chewbacco_payment_qiwi_wallet.client.class%'
         arguments: 
-            - %chewbacco_payment_qiwi_wallet.login%
-            - %chewbacco_payment_qiwi_wallet.password% 
+            - '%chewbacco_payment_qiwi_wallet.login%'
+            - '%chewbacco_payment_qiwi_wallet.password%'
