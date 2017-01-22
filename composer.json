@@ -13,7 +13,7 @@
     "php": ">=5.3.2",
     "sensio/framework-extra-bundle": ">=2.3",
     "jms/payment-core-bundle": "~1.2.0",
-    "symfony-pro/qiwi": "~1.0.0"
+    "symfony-pro/qiwi": "~1.0"
     },
     "require-dev": {
         "sensio/framework-extra-bundle": "*"
