@@ -1,5 +1,5 @@
 {
-  "name": "symfony-pro/payment-qiwi-wallet-bundle",
+  "name": "symfony-bro/payment-qiwi-wallet-bundle",
   "description": "Payment Bundle providing access to the Qiwi Wallet",
   "keywords": [
     "qiwi",
@@ -7,7 +7,7 @@
     "ishop",
     "payment"
   ],
-  "homepage": "https://github.com/symfony-pro/ChewbaccoPaymentQiwiWalletBundle",
+  "homepage": "https://github.com/symfony-bro/ChewbaccoPaymentQiwiWalletBundle",
   "license": "Apache2",
   "require": {
     "php": ">=5.3.2",
