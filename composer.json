@@ -10,9 +10,9 @@
   "homepage": "https://github.com/symfony-bro/ChewbaccoPaymentQiwiWalletBundle",
   "license": "Apache2",
   "require": {
-    "php": ">=5.3.2",
+    "php": ">=5.4",
     "sensio/framework-extra-bundle": ">=2.3",
-    "jms/payment-core-bundle": "~1.2.0",
+    "jms/payment-core-bundle": "~1.3.0",
     "symfony-bro/qiwi": "~1.0"
     },
     "require-dev": {
